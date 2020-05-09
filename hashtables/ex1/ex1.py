@@ -15,7 +15,7 @@ def get_indices_of_item_weights(weights, length, limit):
     for idx in range (0, length):
         difference = limit - weights[idx]
 
-        # If the difference is in weight_dict
+        # Check if the difference is in weight_dict
         if difference in weight_dict:
 
             # Compare the indeces of the matched item weights
