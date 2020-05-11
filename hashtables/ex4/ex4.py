@@ -14,9 +14,6 @@ def has_negatives(a):
         # Add the negative numbers to a temporary list
         elif pos < 0:
             temp_list.append(pos)
-    
-    print("Temp List", temp_list)
-    print("Positives Dict", positives)
 
     # Loop through the temp list and get the absolute value of each item
     for ind in range (0, len(temp_list)):
