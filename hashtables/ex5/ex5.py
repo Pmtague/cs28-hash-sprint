@@ -1,9 +1,20 @@
 def finder(files, queries):
 
-    """
-    YOUR CODE HERE
-    """
+    #Initialize an empty dictionary
+    file_paths = {}
 
+    # Loop through files and add file names as keys and file paths as values
+    for idx in range (0, len(files)):
+        file = files[idx]
+        wordlist = file.split("/")
+        file_paths[wordlist[-1]] = file
+    # Loop through the queries
+    for ind in range (0, len(queries)):
+
+    # If the query is in the dictionary
+    # Add the value of the query(key) to the result list
+
+    # Return result list 
     return result
 
 
